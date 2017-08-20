@@ -236,7 +236,7 @@ var newPlayerWindow = new Ext.Window({
             fields: [
                 'Team'
             ],
-            data: [['ARI'],['ATL'],['BAL'],['BUF'],['CAR'],['CHI'],['CIN'],['CLE'],['DAL'],['DEN'],['DET'],['GB'],['HOU'],['IND'],['JAX'],['KC'],['MIA'],['MIN'],['NE'],['NO'],['NYG'],['NYJ'],['OAK'],['PHI'],['PIT'],['SD'],['SEA'],['SF'],['STL'],['TB'],['TEN'],['WAS']]
+            data: [['ARI'],['ATL'],['BAL'],['BUF'],['CAR'],['CHI'],['CIN'],['CLE'],['DAL'],['DEN'],['DET'],['GB'],['HOU'],['IND'],['JAX'],['KC'],['LAC'],['LAR'],['MIA'],['MIN'],['NE'],['NO'],['NYG'],['NYJ'],['OAK'],['PHI'],['PIT'],['SEA'],['SF'],['TB'],['TEN'],['WAS']]
         }),
         valueField: 'Team',
         displayField: 'Team',
