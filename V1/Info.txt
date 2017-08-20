@@ -1,0 +1,22 @@
+Player source:
+http://www.fftoolbox.com/football/2016/overall-onepager.cfm
+
+
+Load Players -----------------
+Copy data to a text file
+	top 200
+	K
+	Copy DEF from NFLTeam (set bye week)
+Import data to FF.PlayerTemp
+Massage data to FF.Player
+
+
+don't forget kickers
+
+Load DEF ----------------------------
+exec FF.uspNFLTeamsAddToPlayer
+set bye weeks
+
+
+
+

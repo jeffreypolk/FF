@@ -1,0 +1,36 @@
+﻿<%@ Master Language="VB" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    
+    <%
+        Dim params As New FantasyFootballWeb.Params
+    %>
+    
+
+    <link href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        body, div, span, table, select {
+            font-family: Tahoma;
+            font-size:13px;
+        }
+    </style>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js" ></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" ></script>
+
+    <script type="text/javascript" src="<% = ResolveUrl("~/Resources/Js/Main.js") %>"></script>
+
+    <script type="text/javascript">
+        Main.siteRoot = '<% = params.SiteRoot %>';
+        Main.authKey = '<% = params.AuthKey %>';
+        Main.leagueId = <% = params.LeagueId %>;
+    </script>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+</body>
+</html>

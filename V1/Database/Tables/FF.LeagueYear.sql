@@ -1,0 +1,18 @@
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+CREATE TABLE [FF].[LeagueYear](
+	[LeagueId] [int] NOT NULL,
+	[Year] [int] NOT NULL,
+	[Rounds] [int] NOT NULL,
+ CONSTRAINT [PK_LeagueYear] PRIMARY KEY CLUSTERED 
+(
+	[LeagueId] ASC,
+	[Year] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GRANT DELETE ON [FF].[LeagueYear] TO [DataUser] AS [dbo]
+GRANT INSERT ON [FF].[LeagueYear] TO [DataUser] AS [dbo]
+GRANT SELECT ON [FF].[LeagueYear] TO [DataUser] AS [dbo]
+GRANT UPDATE ON [FF].[LeagueYear] TO [DataUser] AS [dbo]
+GO

@@ -1,0 +1,35 @@
+﻿body {
+    padding:5px;
+}
+
+.header {
+    font-size:16px;
+    font-weight:bold;
+    padding-bottom:10px;
+    border-bottom:1px solid black;
+}
+
+.header span {
+    font-size:12px;
+    font-weight:normal;
+}
+
+.spacer {
+    height:20px;
+}
+
+.filter {
+    padding-bottom:30px;
+}
+
+tds {
+        font-size:2.5em;
+    }
+@media screen and (max-device-width:500px){
+    td, th {
+            font-size:2.5em;
+    }
+    .header {
+            font-size:1.5em;
+    }    
+}

@@ -1,0 +1,11 @@
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER TABLE [FF].[League] NOCHECK CONSTRAINT ALL
+GO
+SET IDENTITY_INSERT [FF].[League] ON
+GO
+INSERT INTO [FF].[League] ([LeagueId], [Name]) VALUES (1, 'PA Fantasy')
+INSERT INTO [FF].[League] ([LeagueId], [Name]) VALUES (2, 'Girls League And Noah')
+GO
+SET IDENTITY_INSERT [FF].[League] OFF
+GO

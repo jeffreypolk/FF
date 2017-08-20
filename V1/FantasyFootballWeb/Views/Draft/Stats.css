@@ -1,0 +1,26 @@
+﻿div {
+    /*border:solid 1px #cccccc;*/
+}
+body {
+    padding:5px;
+}
+
+.header {
+    font-size:16px;
+    font-weight:bold;
+    padding-bottom:10px;
+    border-bottom:1px solid black;
+}
+
+.header span {
+    font-size:12px;
+    font-weight:normal;
+}
+
+.spacer {
+    height:20px;
+}
+
+.filter {
+    padding-bottom:30px;
+}

@@ -1,0 +1,50 @@
+﻿body 
+{
+    background-color:#ffffff;
+}
+
+.team 
+{
+    text-align:center;
+}
+
+.pick 
+{
+    padding:10px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    width: 10%;
+    height: 45px;
+    font-size:10px;
+    color: Black;
+    border: solid 1px #eeeeee;
+}
+
+.pick-name 
+{
+    font-size:12px;
+}
+
+.pick-qb {background-color:#F2A29D;}
+.pick-rb {background-color:#B8CAEA;}
+.pick-wr {background-color:#9DF2A7;}
+.pick-te {background-color:#F2E09D;}
+.pick-def {background-color:#cccccc;}
+.pick-k {background-color:#C45AEC;}
+
+.pick-keeper 
+{
+    border: solid 2px #000000;
+    font-weight:bold;
+            
+}
+
+.circle {
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.circle-good {
+    background-color:green;
+    
+}
